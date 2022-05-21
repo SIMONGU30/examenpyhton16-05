@@ -31,6 +31,6 @@ while(opcion!=3):
                 edad=ciclista.edad
                 pais=ciclista.pais
                 tiempo=ciclista.tiempo
-                print(f"el ganador es : {nombre} , {edad} , {pais} , con timpo de {tiempo}")
+                print(f"el ganador es : {nombre} , {edad} , {pais} , con tiempo de {tiempo}")
   
 
