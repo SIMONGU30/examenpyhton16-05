@@ -22,7 +22,7 @@ while(opcion!=4):
         escuderias.append(escuderia)
 
     elif(opcion==2):
-        masCara=escuderias[0].costoAnual
+        masCara=escuderias[1].costoAnual
         for escuderia in escuderias:
             if(escuderia.costoAnual >= masCara):
                 masCara=escuderia.costoAnual
@@ -31,8 +31,7 @@ while(opcion!=4):
                 print(f"la escuderia mas cara es de {masCara}")
                 print(f"El nombre de la escuderia es  {nombre}")
                 print(f"El nombre del motor es  {motor}")
-            else:
-                print(f"Error")
+
     elif(opcion==3):
         opcionMotor=1
         print("1---> mercedes")
