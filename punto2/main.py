@@ -22,7 +22,7 @@ while(opcion!=4):
         escuderias.append(escuderia)
 
     elif(opcion==2):
-        masCara=escuderias[1].costoAnual
+        masCara=escuderias[0].costoAnual
         for escuderia in escuderias:
             if(escuderia.costoAnual >= masCara):
                 masCara=escuderia.costoAnual
